@@ -16,7 +16,7 @@ setup(
     zip_safe=True,
     maintainer='yaoyuh',
     maintainer_email='yaoyuh@andrew.cmu.edu',
-    description='TODO: Package description',
+    description='Top level package for ROS Skill Self-Check',
     license='MIT',
     tests_require=['pytest'],
     entry_points={

@@ -4,7 +4,7 @@ import rclpy
 def main(args=None):
     rclpy.init(args=args)
 
-    # Need the CounterPublisher class definition of the current ROS package.
+    # TODO: Need the CounterPublisher class definition of the current ROS package.
     counter_publisher = CounterPublisher()
 
     rclpy.spin(counter_publisher)
